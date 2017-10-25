@@ -1,0 +1,13 @@
+puts "Tell me, what is your age? Gonna give you some calculations, based on help from Exploratorium.edu!"
+age = gets.chomp.to_i
+puts "Cool. You are #{age}, huh? Your that means you're #{age*365*24*60*60} seconds old, excluding leap day seconds"
+puts "and excluding the amount of seconds you have been alive since the time on your birthday that you were born."
+puts "I'll answer you you how old you'd be on other planets and show you how many earth days that answer would contain."
+puts "On Mercury, you would be #{age*4.1} years. That's #{age*4.1*365} earth days!"
+puts "On Venus, you would be #{age*1.6} years. That's #{age*1.6*365} earth days!"
+puts "On Mars, you would be #{age*0.5} years. That's #{age*0.5*365} earth days!"
+puts "On Jupiter, you would be #{age*0.08} years. That's #{age*0.08*365} earth days!"
+puts "On Saturn, you would be #{age*0.03} years. That's #{age*0.03*365} earth days!"
+puts "On Uranus, you would be #{age*0.01} years. That's #{age*0.01*365} earth days!"
+puts "On Neptune, you would be #{age*0.006} years. That's #{age*0.006*365} earth days!"
+puts "On Pluto, you would be #{age*0.04} years. That's #{age*0.04*365} earth days!"
